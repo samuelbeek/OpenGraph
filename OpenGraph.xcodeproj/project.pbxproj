@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A7310FF1E279D5D00CE1756 /* example3.com.html in Resources */ = {isa = PBXBuildFile; fileRef = 6A7310FB1E279C7E00CE1756 /* example3.com.html */; };
+		5B2147031EEBDC6600F88FC5 /* empty_ogp.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B2146FE1EEBDC6000F88FC5 /* empty_ogp.html */; };
+		5B2147041EEBDC6600F88FC5 /* example3.com.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B2146FF1EEBDC6000F88FC5 /* example3.com.html */; };
+		5B2147051EEBDC6600F88FC5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B2147001EEBDC6000F88FC5 /* Info.plist */; };
+		5B2147061EEBDC6600F88FC5 /* ogp.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B2147011EEBDC6000F88FC5 /* ogp.html */; };
+		5B2147071EEBDC6600F88FC5 /* OpenGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2147021EEBDC6000F88FC5 /* OpenGraphTests.swift */; };
 		7B24FB191D3B2583005275B0 /* OpenGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B24FB181D3B2583005275B0 /* OpenGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B24FB201D3B2583005275B0 /* OpenGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B24FB151D3B2583005275B0 /* OpenGraph.framework */; };
-		7B24FB3E1D3B26C4005275B0 /* OpenGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24FB3D1D3B26C4005275B0 /* OpenGraphTests.swift */; };
 		7B24FB461D3B27E5005275B0 /* OpenGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24FB411D3B27E5005275B0 /* OpenGraph.swift */; };
 		7B24FB471D3B27E5005275B0 /* OpenGraphMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24FB421D3B27E5005275B0 /* OpenGraphMetadata.swift */; };
 		7B24FB481D3B27E5005275B0 /* OpenGraphParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24FB431D3B27E5005275B0 /* OpenGraphParseError.swift */; };
 		7B24FB491D3B27E5005275B0 /* OpenGraphParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24FB441D3B27E5005275B0 /* OpenGraphParser.swift */; };
 		7B24FB4A1D3B27E5005275B0 /* OpenGraphResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B24FB451D3B27E5005275B0 /* OpenGraphResponseError.swift */; };
-		7B24FB531D3B2DD4005275B0 /* ogp.html in Resources */ = {isa = PBXBuildFile; fileRef = 7B24FB521D3B2DD4005275B0 /* ogp.html */; };
-		CBEA99A61E2B65F40066452C /* empty_ogp.html in Resources */ = {isa = PBXBuildFile; fileRef = CBEA99A41E2B63980066452C /* empty_ogp.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A7310FB1E279C7E00CE1756 /* example3.com.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example3.com.html; sourceTree = "<group>"; };
+		5B2146FE1EEBDC6000F88FC5 /* empty_ogp.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = empty_ogp.html; sourceTree = "<group>"; };
+		5B2146FF1EEBDC6000F88FC5 /* example3.com.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = example3.com.html; sourceTree = "<group>"; };
+		5B2147001EEBDC6000F88FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2147011EEBDC6000F88FC5 /* ogp.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ogp.html; sourceTree = "<group>"; };
+		5B2147021EEBDC6000F88FC5 /* OpenGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGraphTests.swift; sourceTree = "<group>"; };
 		7B24FB151D3B2583005275B0 /* OpenGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B24FB181D3B2583005275B0 /* OpenGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGraph.h; sourceTree = "<group>"; };
 		7B24FB1A1D3B2583005275B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B24FB1F1D3B2583005275B0 /* OpenGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B24FB261D3B2583005275B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B24FB3D1D3B26C4005275B0 /* OpenGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphTests.swift; sourceTree = "<group>"; };
 		7B24FB411D3B27E5005275B0 /* OpenGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraph.swift; sourceTree = "<group>"; };
 		7B24FB421D3B27E5005275B0 /* OpenGraphMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphMetadata.swift; sourceTree = "<group>"; };
 		7B24FB431D3B27E5005275B0 /* OpenGraphParseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphParseError.swift; sourceTree = "<group>"; };
 		7B24FB441D3B27E5005275B0 /* OpenGraphParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphParser.swift; sourceTree = "<group>"; };
 		7B24FB451D3B27E5005275B0 /* OpenGraphResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGraphResponseError.swift; sourceTree = "<group>"; };
-		7B24FB521D3B2DD4005275B0 /* ogp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ogp.html; sourceTree = "<group>"; };
-		CBEA99A41E2B63980066452C /* empty_ogp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = empty_ogp.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B2146FD1EEBDC6000F88FC5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B2146FE1EEBDC6000F88FC5 /* empty_ogp.html */,
+				5B2146FF1EEBDC6000F88FC5 /* example3.com.html */,
+				5B2147001EEBDC6000F88FC5 /* Info.plist */,
+				5B2147011EEBDC6000F88FC5 /* ogp.html */,
+				5B2147021EEBDC6000F88FC5 /* OpenGraphTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		7B24FB0B1D3B2583005275B0 = {
 			isa = PBXGroup;
 			children = (
 				7B24FB171D3B2583005275B0 /* OpenGraph */,
-				7B24FB231D3B2583005275B0 /* Tests */,
 				7B24FB161D3B2583005275B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +99,7 @@
 		7B24FB171D3B2583005275B0 /* OpenGraph */ = {
 			isa = PBXGroup;
 			children = (
+				5B2146FD1EEBDC6000F88FC5 /* Tests */,
 				7B24FB181D3B2583005275B0 /* OpenGraph.h */,
 				7B24FB411D3B27E5005275B0 /* OpenGraph.swift */,
 				7B24FB421D3B27E5005275B0 /* OpenGraphMetadata.swift */,
@@ -96,18 +109,6 @@
 				7B24FB1A1D3B2583005275B0 /* Info.plist */,
 			);
 			path = OpenGraph;
-			sourceTree = "<group>";
-		};
-		7B24FB231D3B2583005275B0 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7B24FB521D3B2DD4005275B0 /* ogp.html */,
-				6A7310FB1E279C7E00CE1756 /* example3.com.html */,
-				CBEA99A41E2B63980066452C /* empty_ogp.html */,
-				7B24FB261D3B2583005275B0 /* Info.plist */,
-				7B24FB3D1D3B26C4005275B0 /* OpenGraphTests.swift */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBEA99A61E2B65F40066452C /* empty_ogp.html in Resources */,
-				6A7310FF1E279D5D00CE1756 /* example3.com.html in Resources */,
-				7B24FB531D3B2DD4005275B0 /* ogp.html in Resources */,
+				5B2147041EEBDC6600F88FC5 /* example3.com.html in Resources */,
+				5B2147061EEBDC6600F88FC5 /* ogp.html in Resources */,
+				5B2147031EEBDC6600F88FC5 /* empty_ogp.html in Resources */,
+				5B2147051EEBDC6600F88FC5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B24FB3E1D3B26C4005275B0 /* OpenGraphTests.swift in Sources */,
+				5B2147071EEBDC6600F88FC5 /* OpenGraphTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +441,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = OpenGraph/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.cloud-dj.OpenGraphTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,7 +460,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = OpenGraph/Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.cloud-dj.OpenGraphTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
